@@ -120,9 +120,9 @@ describe('Products E2E', () => {
     });
   });
 
-  // ── FULL CRUD LIFECYCLE ─────────────────────────────────────────
+  // ── FULL E2E LIFECYCLE ─────────────────────────────────────────
 
-  describe('Full CRUD lifecycle', () => {
+  describe('Full E2E lifecycle', () => {
     it('should create → read → update → delete a product', async () => {
       // CREATE
       const createRes = await request(app.getHttpServer())
