@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+
+# VS Code workspace file (optional: remove if you want to track it)
+*.code-workspace
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+build/
